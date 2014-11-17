@@ -5,4 +5,7 @@ Gets ip2location.com Lite DB1 as a typed List to save in your database or cache 
 
 Usage
 -----
+First you need to build this from source or download this package from NuGet: <https://www.nuget.org/packages/IP2Location>
+
+After you have included this library all you have to do is call the Download method from IP2LocationHandler: 
 `List<IPRangeCountry> range = IP2LocationHandler.Download();`
