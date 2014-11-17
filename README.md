@@ -1,7 +1,7 @@
 CSharp-IP2Location
 ==================
 
-Gets ip2location.com Lite DB1 as a typed List to save in your database or cache or whatever your persistent storage is.
+Gets [ip2location.com Lite DB1](http://lite.ip2location.com/database-ip-country) as a typed List to save in your database or cache or whatever your persistent storage is.
 
 Usage
 -----
