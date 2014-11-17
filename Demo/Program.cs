@@ -1,6 +1,6 @@
-﻿using System;
+﻿using IP2Location;
+using System;
 using System.Collections.Generic;
-using Logic;
 
 namespace Demo
 {
@@ -8,7 +8,7 @@ namespace Demo
     {
         private static void Main(string[] args)
         {
-            List<IPRangeCountry> range = IP2Location.Download();
+            List<IPRangeCountry> range = IP2LocationHandler.Download();
 
             //Save to database or whatever your backend storage is
             foreach (IPRangeCountry ipRangeCountry in range)

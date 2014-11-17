@@ -1,4 +1,4 @@
-﻿namespace Logic
+﻿namespace IP2Location
 {
     public class IPRangeCountry
     {

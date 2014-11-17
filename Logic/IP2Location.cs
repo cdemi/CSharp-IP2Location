@@ -5,9 +5,9 @@ using System.Net;
 using CsvHelper;
 using Ionic.Zip;
 
-namespace Logic
+namespace IP2Location
 {
-    public static class IP2Location
+    public static class IP2LocationHandler
     {
         public static List<IPRangeCountry> Download()
         {

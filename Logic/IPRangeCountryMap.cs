@@ -1,6 +1,6 @@
 ﻿using CsvHelper.Configuration;
 
-namespace Logic
+namespace IP2Location
 {
     internal sealed class IPRangeCountryMap : CsvClassMap<IPRangeCountry>
     {

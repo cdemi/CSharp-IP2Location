@@ -5,4 +5,4 @@ Gets ip2location.com Lite DB1 as a typed List to save in your database or cache 
 
 Usage
 -----
-`List<IPRangeCountry> range = IP2Location.Download();`
+`List<IPRangeCountry> range = IP2LocationHandler.Download();`
